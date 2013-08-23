@@ -1,0 +1,186 @@
+.widget{
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+.widget * {
+    max-width: 100%;
+}
+div.my-container .widget{
+    margin-bottom: 85px;
+}
+
+.widget h4.sidebar-title{
+    color: #666666;
+    padding-bottom: 25px;
+    margin: 0px;
+    border-bottom: 1px solid #dedede;
+}
+
+.widget table td{
+    text-align: center;
+    vertical-align: middle;
+}
+.widget ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.widget ul li{
+    border-bottom: 1px dotted #e6e6e6;
+    font: 0.75em/1.6em Helvetica, Arial,sans-serif;
+    color: #666666;
+    padding: 9px 0px;   
+    text-transform: uppercase;
+}
+.widget ul li ul{
+    margin-top: 9px;
+}
+.widget ul li ul li{
+    background-position: left top;
+    background-repeat: no-repeat;
+    border-bottom: none;
+    border-top: 1px dotted #e6e6e6;
+    padding-left: 20px;
+}
+.widget ul li a{
+    font: 14px Helvetica, Arial,sans-serif;
+    color: #666666;
+    text-transform: uppercase;
+}
+.widget ul li a:hover{
+    color: #009cd7;
+}
+.widget.widget_search input[type="text"]{
+    width: 71%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.widget.widget_search button[type="submit"]{
+    width: 20%;
+    padding: 19px 0px;
+    float: right;
+}
+.widget.widget_search button[type="submit"] i{
+    background-image:url(../img/search.png);
+    background-position: center center;
+    display: block;
+    height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27px;
+    text-align: center;
+}
+
+.widget.widget_newsletter form{
+    margin-bottom: 0px;
+}
+
+.widget.widget_newsletter input[type="text"]{
+    width: 71%;
+    height: 50px;
+    margin-bottom: 0px;
+}
+.widget.widget_newsletter button[type="submit"]{
+    width: 20%;
+    padding: 19px 0px;
+    float: right;
+}
+.widget.widget_newsletter button[type="submit"] i{
+    background-image:url(../img/subscribe.png);
+    background-position: center center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27px;
+    height: 22px;
+    text-align: center;
+}
+.widget.widget_newsletter span.description{
+    font-style: italic;
+    font-weight: 300;
+    color: #999999;
+    margin-top: 10px;
+}
+.widget.widget_tag_cloud .tagcloud{
+    padding-top: 15px;
+}
+.widget.widget_tag_cloud .tagcloud a{
+    background-color: #ff5555;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 12px !important;
+    line-height: 16px;
+    margin: 5px 5px 0px 0px;
+    padding: 3px 8px;
+    text-transform: uppercase;
+    
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+.widget.widget_tag_cloud .tagcloud a:hover{
+    background-color: #009cd7;
+    text-decoration: none;
+}
+
+
+.widget_flickr div.flickr{
+    margin-top: 18px;
+}
+.widget_flickr div.flickr_badge_image{
+    float: left;
+}
+.widget_flickr div.flickr_badge_image img{
+    width: 71px;
+    height: 71px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+@media ( min-width: 1200px ){
+    .widget.widget_newsletter span.description{
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+@media ( min-width: 980px ) and ( max-width: 1200px ){
+    .widget.widget_newsletter span.description{
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+@media ( min-width: 768px ) and ( max-width: 979px ){
+    .widget.widget_newsletter span.description{
+        font-size: 13px;
+        line-height: 24px;
+    }
+}
+@media ( min-width: 481px ) and ( max-width: 767px ){
+    div.my-container .widget{
+        margin-bottom: 40px;
+    }
+    
+    div.my-container .widget h4.sidebar-title{
+        color: #121212;
+    }
+    .widget.widget_newsletter span.description{
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media ( max-width: 480px ){
+    div.my-container .widget{
+        margin-bottom: 40px;
+    }
+    
+    div.my-container .widget h4.sidebar-title{
+        color: #121212;
+    }
+    .widget.widget_newsletter span.description{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

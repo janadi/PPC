@@ -1,0 +1,131 @@
+section.my-single article h1:first-child,
+section.my-single article h2:first-child,
+section.my-single article h3:first-child,
+section.my-single article h4:first-child,
+section.my-single article h5:first-child,
+section.my-single article h6:first-child,
+section.my-single article h7:first-child,
+section.my-single article blockquote:first-child,
+section.my-single article blockquote:first-child p,
+section.my-single article p:first-child{
+    margin-top: 0px;
+}
+section.my-single article div.my-thumbnail .wp-caption{
+    background: #ffffff;
+    font-style: italic;
+    color: #454545;
+    border-bottom: 1px solid #ededed;    
+}
+
+/* META */
+div.my-title div.post-meta{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #aaaaaa;
+}
+div.my-title div.post-meta time,
+div.my-title div.post-meta a.post-meta-comments,
+div.my-title div.post-meta a.post-meta-likes,
+div.my-title div.post-meta a.post-meta-author{
+    display: inline-block;
+    line-height: 16px;
+    margin-right: 25px;
+    padding: 5px 0px;
+}
+div.my-title div.post-meta a.post-meta-likes.liked{
+    color: #ff5555;
+}
+div.my-title div.post-meta a.post-meta-author{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+section.my-single article div.post-meta-terms{
+    border-top: 1px dashed #dedede;
+}
+div.my-title div.post-meta-tags,
+div.my-title div.post-meta-categories{
+    color: #000000;
+    padding: 5px 0px;
+    line-height: 30px;
+}
+div.post-meta-categories,
+div.post-meta-tags{
+    line-height: 30px;
+    margin: 15px 0px;
+}
+div.post-meta-tags a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+div.my-gallery div.gallery-item{
+    min-width: 150px;
+}
+div.my-gallery div.gallery-item *{
+    max-width: 100%;
+}
+
+
+@media ( min-width: 1200px ){
+    section.my-single article div.my-thumbnail .wp-caption{
+        padding: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    section.my-single article div.post-meta-terms{
+        margin-top: 30px;
+        padding: 30px 0px;
+    }
+}
+@media ( min-width: 980px ) and ( max-width: 1200px ){
+    section.my-single article div.my-thumbnail .wp-caption{
+        padding: 15px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    section.my-single article div.post-meta-terms{
+        margin-top: 30px;
+        padding: 30px 0px;
+    }
+}
+@media ( min-width: 768px ) and ( max-width: 979px ){
+    section.my-single article div.my-thumbnail .wp-caption{
+        padding: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section.my-single article div.post-meta-terms{
+        margin-top: 30px;
+        padding: 30px 0px;
+    }
+}
+@media ( min-width: 481px ) and ( max-width: 767px ){
+    section.my-single article div.my-thumbnail .wp-caption{
+        padding: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    section.my-single article div.post-meta-terms{
+        margin-top: 24px;
+        padding: 24px 0px;
+    }
+}
+@media ( max-width: 480px ){
+    section.my-single article div.my-thumbnail .wp-caption{
+        padding: 10px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    section.my-single article div.post-meta-terms{
+        margin-top: 18px;
+        padding: 18px 0px;
+    }
+}

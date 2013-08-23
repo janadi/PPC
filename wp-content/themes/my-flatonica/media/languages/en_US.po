@@ -1,0 +1,662 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Add additional HTML + JS code ( ex: google analytic code )"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Add custom css"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+msgid "Additional Sidebar - is not used by default, but you can use it on different pages or posts, from individual page/post - myThemes settings."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/mythemes.class.php:252
+msgid "Additional custom sidebar"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/admin/setup.class.php:1
+msgid "An error occurred querying the database, try again or verify database settings."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/author.php:15
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/index.php:4
+#: my-flatonica/front-page.php:73
+msgid "Blog Page"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/archive.php:4
+msgid "Blog archives"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Branding"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/bottom-meta.php:5
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Choose File"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/view/list-view.php:35
+msgid "Closed"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/top-meta.php:2
+#: my-flatonica/comments.php:1
+msgid "Comment"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/top-meta.php:2
+#: my-flatonica/comments.php:1
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/archive.php:4
+msgid "Daily archives"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Default layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Default sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Disable"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Drop Settings"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Drop item"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:37
+msgid "E-mail"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "E-mail ( required )"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Enable"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Error - options were not changed. contact support from "
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Error, please select \"ico\" type media file"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:65
+msgid "Flickr ID"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Flickr Photos"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Flickr Photos Gallery"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+#: my-flatonica/cfg/admin/settings/general.php:1
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Fourth Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+msgid "Front Page Sidebar - is used by default on front page ( if not is set to show a page for front page )."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Front page layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Front page sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:43
+msgid "Google FeedBurner ID"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "Google FeedBurner Newsletter"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+msgid "Header Menu"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "If not is set custom layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "If not is set front page layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "If not is set single page layout, will be used default layout."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "If not is set single post layout, will be used default layout."
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:78
+msgid "Latest Photo"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Leave a reply"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/likes.class.php:169
+msgid "Like"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/likes.class.php:169
+msgid "Likes"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Log out?"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Logged in as"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Logo left margin ( px )"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Logo top margin ( px )"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+#: my-flatonica/cfg/admin/settings/general.php:1
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Main Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+msgid "Main Sidebar - is used by default for next templates: 404, Archive, Author, Category, Search and Tag."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/mythemes.class.php:252
+msgid "Main sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/archive.php:4
+msgid "Monthly archives"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "Newsletter"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Nickname ( required )"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/404.php:4
+#: my-flatonica/single.php:77
+#: my-flatonica/page.php:72
+#: my-flatonica/front-page.php:81
+#: my-flatonica/cfg/templates/loop.php:12
+msgid "Not found results"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Not fount items"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:70
+msgid "Number of photos"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Others"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/mythemes.class.php:252
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/single.php:51
+#: my-flatonica/page.php:50
+#: my-flatonica/front-page.php:51
+msgid "Pages"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:82
+msgid "Photo Gallery"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Please select 'ico' type media file. Make sure you allow uploading 'ico' type in General Settings -> Upload file types."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+msgid "Post Sidebar - is used by default for single post."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/bottom-meta.php:5
+msgid "Post Tags"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/author.php:34
+msgid "Published"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:77
+msgid "Random Photo"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/cfg/templates/view/list-view.php:28
+msgid "Read more about .."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Remove data from this field"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/category.php:4
+msgid "Results for category"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/tag.php:4
+msgid "Results for tag"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:79
+msgid "Rss feed"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/search.php:4
+msgid "Search results for"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+#: my-flatonica/cfg/admin/settings/general.php:1
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Second Sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Select Layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Select sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Behance</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Facebook</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Flickr</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Google +</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Stumble</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Twitter</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Vimeo</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Set <strong>Youtube</strong> profile page <strong>URL</strong>"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Show RSS icon in header"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Show title"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:75
+msgid "Showing Method"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Single page layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Single page sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Single post layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Single post sidebar"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Social"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Submit Comment"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:1
+msgid "Subscribe now with Google FeedBurner"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/sett.class.php:1
+msgid "Successful disabled option!"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/sett.class.php:1
+msgid "Successful enabled option!"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Successful update options!"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/pages.php:1
+msgid "Theme Options"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/static.php:1
+#: my-flatonica/cfg/admin/settings/general.php:1
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Third Sidebar"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/plg/my_widgets/my_wdg_flickr.php:60
+#: my-flatonica/fw/plg/my_widgets/my_wdg_newsletter.php:43
+msgid "Title"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Tracking code"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/main.php:1
+#: my-flatonica/fw/admin/ahtml.class.php:1
+msgid "Update Settings"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Upload your custom favicon"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/settings/general.php:1
+msgid "Upload your custom logo"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "Use custom layout"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/main.php:1
+msgid "Version"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/mythemes.class.php:252
+msgid "Vimeo profile ( url )"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/404.php:16
+#: my-flatonica/single.php:87
+#: my-flatonica/page.php:82
+#: my-flatonica/front-page.php:81
+#: my-flatonica/cfg/templates/loop.php:12
+msgid "We apologize but this page, post or resource does not exist or can not be found. Perhaps it is necessary to change the call method to this page, post or resource."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Website"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/templates/top-meta.php:2
+msgid "Writed by "
+msgstr ""
+
+#. Text in function
+#: my-flatonica/archive.php:4
+msgid "Yearly archives"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "You may use these HTML tags and attributes"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/fw/mythemes.class.php:252
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in function
+#: my-flatonica/comments.php:1
+msgid "Your email address will not be published."
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/author.php:34
+msgid "articles"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:44
+msgid "follow us on Behance"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:37
+msgid "follow us on Facebook"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:51
+msgid "follow us on Flickr"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:58
+msgid "follow us on Google plus"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:72
+msgid "follow us on Stumble"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:30
+msgid "follow us on Twitter"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:23
+msgid "follow us on Vimeo"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/footer.php:65
+msgid "follow us on Youtube"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/cfg/admin/resources/boxes.php:1
+msgid "myThemes Settings"
+msgstr ""
+
+#. Text in function
+#: my-flatonica/fw/admin/main.php:1
+msgid "options has been updated successfully"
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/search-form.php:5
+msgid "type here to search..."
+msgstr ""
+
+#. Text in echo
+#: my-flatonica/searchform.php:4
+msgid "type here..."
+msgstr ""

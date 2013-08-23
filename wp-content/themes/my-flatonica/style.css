@@ -1,0 +1,88 @@
+/*
+Theme Name: my flatonica
+Theme URI: http://mythem.es/item/my-flatonica-free-wp-theme/
+Description: My Flatonica is clean WordPress theme with minimalist design. Theme comes with flat design concept and responsive layout. This theme is built on full width and it is suitable for all type of devices. Fluid and responsive layout is developed with twitter bootstrap framework. Theme is developed by myThem.es. Theme features: responsive layout, full width fluid layout, custom background, custom header color, custom templates, custom logo, custom favicon; additional widgets: newsletter and flickr.
+Version: 0.0.4
+Tags: red, blue, white, light, two-columns, right-sidebar, left-sidebar, flexible-width, theme-options, custom-background, custom-colors, custom-menu, featured-images, threaded-comments, holiday, seasonal, flexible-header, full-width-Template
+Author: myThem.es
+Author URI: http://mythem.es
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+My Flatonica, Copyright 2013 myThem.es
+My Flatonica is distributed under the terms of the GNU GPL
+
+                     ________________
+                    |_____    _______|
+     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____ 
+    |   |   |   | |_ |  | |  | |  |___  |  __| |   |   |   |     |  __| |  __|
+    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |
+    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|   
+                    |_|
+
+
+*/
+/* EXTERNAL IMPORTS GOOGLE FONTS */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* LOCAL IMPORTS */
+@import url(media/css/bootstrap.css);
+@import url(media/css/bootstrap-responsive.css);
+
+@import url(media/css/settings.css);
+
+@import url(media/css/main.css);
+@import url(media/css/form.css);
+
+@import url(media/css/blog.css);
+
+@import url(media/css/single.css);
+@import url(media/css/comments.css);
+
+@import url(media/css/icons.css);
+
+@import url(media/css/sidebar.css);
+
+
+
+
+/* WORDPRESS */
+.alignleft{
+    float:left;
+    margin:0px 25px 14px 0px;
+}
+.alignright{
+    float:right;
+    margin:0px 0px 14px 25px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto !important;
+    margin-right:auto !important;
+	text-align: center;
+	margin-bottom:15px;
+}
+
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor{}
+
+.wp-caption{
+    padding-top: 5px;
+    background: #ffffff;
+    font-style: italic;
+    color: #454545;
+    border-bottom: 1px solid #f0f0f0;
+}
+.wp-caption p{
+    padding: 10px;
+    margin: 0px;
+}
+.wp-caption img{
+    display: block;
+    margin: 0px auto;
+}

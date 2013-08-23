@@ -1,0 +1,257 @@
+div.comments-list{
+    border-top: 1px soli #dedede;
+}
+
+div.comments-list h3.comments-title{
+    margin-bottom: 30px;
+}
+
+div.comments-list > ol,
+div.comments-list ul.children{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+div.comments-list > ol li{
+    line-height: auto;
+    margin-bottom: 30px;
+}
+div.comments-list > ol li div.avatar{
+    width: 15%;
+    float: left;
+}
+div.comments-list > ol li .comment-body{
+    width: 74%;
+    padding: 3%;
+    background-color: #ffffff;
+}
+
+div.comments-list > ol li .comment-body span.arrow{
+    background-image: url(../img/comment.arrow.png);
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 31px;   
+}
+
+div.comments-list > ol li .comment-body header{
+    border-bottom: 1px solid #f7f7f7;
+}
+div.comments-list > ol li .comment-body header cite{
+    float: left;
+}
+div.comments-list > ol li .comment-body header cite a{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.comments-list > ol li .comment-body header span.comment-meta{
+    color: #454545;
+    font-size: 14px;
+    font-weight: 400;
+    float: right;
+}
+div.comments-list > ol li .comment-body header span.comment-replay{
+    margin-left: 15px;
+}
+div.comments-list > ol li .comment-body header span.comment-replay a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 100px;
+    overflow: hidden;
+}
+div.comments-list > ol li .comment-body{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+div.comments-list > ol li .comment-body pre{
+    margin: 20px 0px;
+}
+div.comments-list > ol li .comment-body blockquote{
+    font-style: italic;
+    margin: 20px 0px;
+}
+div.comments-list > ol li .comment-body p.comment-quote{
+    margin-top: 3%;
+    margin-bottom: 0px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+div.comments-list > ol li .comment-body em.comment-awaiting-moderation{
+    color: #dd0000;
+    display: block;
+    font-style: italic;
+    margin-bottom: 3%;
+    
+}
+
+form#commentform p input[type="text"]{
+    margin: 0px;
+    text-indent:75px;
+}
+
+form#commentform p.comment-form-author input[type="text"]{
+    background-image: url(../img/comment.form.author.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+form#commentform p.comment-form-email input[type="text"]{
+    background-image: url(../img/comment.form.email.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+form#commentform p.comment-form-url input[type="text"]{
+    background-image: url(../img/comment.form.url.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+form#commentform p textarea{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+}
+div.pagination.comments nav a,
+div.pagination.comments nav span{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+div.pagination.comments nav a.prev,
+div.pagination.comments nav a.next{
+    font-family: Roboto, Sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    color: #ffffff;
+    padding:5px 12px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+div.pagination.comments nav a.prev:hover,
+div.pagination.comments nav a.next:hover{
+    mouse: pointer;
+}
+
+@media (min-width: 1201px ){
+    div.comments-list > ol li .comment-body span.arrow{
+        margin: 0px 3% 0px -3%;
+    }
+    div.comments-list > ol li .comment-body header{
+        padding-top: 1%;
+        padding-bottom: 4%;
+    }
+    form#commentform p.comment-notes{
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    form#commentform p textarea{
+        height: 300px;
+    }
+}
+@media ( min-width: 980px ) and ( max-width: 1200px ){
+    div.comments-list > ol li .comment-body span.arrow{
+        margin: 0px 3% 0px -3%;
+    }
+    div.comments-list > ol li .comment-body header{
+        padding-top: 1%;
+        padding-bottom: 4%;
+    }
+    form#commentform p.comment-notes{
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+    form#commentform p textarea{
+        height: 300px;
+    }
+}
+@media ( min-width: 768px ) and ( max-width: 979px ){
+    div.comments-list > ol li .comment-body span.arrow{
+        margin: 0px 3% 0px -3%;
+    }
+    div.comments-list > ol li .comment-body header{
+        padding-top: 1%;
+        padding-bottom: 4%;
+    }
+    form#commentform p.comment-notes{
+        font-size: 13px;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    form#commentform p textarea{
+        height: 200px;
+    }
+}
+@media ( min-width: 481px ) and ( max-width: 767px ){
+    div.comments-list > ol li .comment-body span.arrow{
+        margin: 0px 5% 0px -5%;
+    }
+    div.comments-list > ol li .comment-body header{
+        padding-top: 1%;
+        padding-bottom: 4%;
+    }
+    form#commentform p.comment-notes{
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    form#commentform p textarea{
+        font-size: 12px;
+        height: 200px;
+    }
+}
+@media ( max-width:480px ){
+    div.comments-list > ol li{
+        margin-bottom: 15px;
+    }
+    div.comments-list > ol li div.avatar{
+        position: absolute;
+        margin:3%;
+        width: 9%;
+        float: none;
+    }
+    div.comments-list > ol li .comment-body{
+        width: 94%;
+    }
+    div.comments-list > ol li .comment-body header{
+        width: 85%;
+        padding-left: 15%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+    div.comments-list > ol li .comment-body header span.comment-meta{
+        display: none;
+    }
+    div.comments-list > ol li .comment-body span.arrow{
+        display: none;
+    }
+    form#commentform p.comment-notes{
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    form#commentform p textarea{
+        font-size: 12px;
+        height: 200px;
+    }
+    form#commentform p.form-submit input[type="submit"]{
+        width: 100%;
+    }
+}

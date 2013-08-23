@@ -1,0 +1,1493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpmarketplace\n"
+"POT-Creation-Date: 2013-05-17 13:07+0600\n"
+"PO-Revision-Date: 2013-05-17 13:07+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/"
+"wpmarketplace/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/"
+"wpmarketplace\n"
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:26
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:71
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout.php:17
+msgid "No item in cart."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:26
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:71
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout.php:17
+msgid "Continue shopping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:28
+msgid "Clicke here to view cart details"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:88
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:83
+msgid "Title:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:161
+msgid "Delete cart item"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:166
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:42
+msgid "Subtotal:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:168
+msgid "View Cart"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/widget.php:168
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:46
+msgid "Checkout"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:70
+msgid "Failed to create product dir autometically. You have to create the dir "
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:70
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:75
+msgid "manually."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:75
+msgid ""
+"Failed to create product image dir autometically. You have to create the dir "
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:132
+msgid ""
+"upload your icons on '/wp-content/plugins/wpmarketplace/images/icons/' using "
+"ftp"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:142
+msgid "Pricing & Discounts"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:143
+msgid "Icon"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:144
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:83
+msgid "Tax"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:145
+msgid "Weight and Dimension"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:150
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:82
+msgid "Stock"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:165
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:495
+msgid "Weight"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:166
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:496
+msgid "Width"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:167
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:497
+msgid "Height"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:176
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:82
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:84
+msgid "Tax Status"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:177
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:85
+msgid "Taxable"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:178
+msgid "Shipping only"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:179
+msgid "None"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:182
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:38
+msgid "Tax Class"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:188
+msgid "Standard Rate"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:205
+msgid "Manage Stock"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:207
+msgid "Stock Quantity"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:380
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:6
+msgid "Featured Products"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:381
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payouts.php:58
+msgid "Payouts"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:382
+msgid "Orders &lsaquo; Marketplace"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:382
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:6
+msgid "Orders"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:383
+msgid "Settings &lsaquo; Marketplace"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:383
+msgid "Settings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:384
+msgid "Themes &lsaquo; Marketplace"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:384
+msgid "Themes"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:385
+msgid "Add Ons &lsaquo; Marketplace"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:385
+msgid "Add Ons"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:418
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:476
+msgid "Username is Empty!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:481
+msgid "Invalid Email Address!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:522
+msgid "Email already exists."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:527
+msgid "User already exists."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/wpmarketplace.php:739
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:29
+msgid "Allowed Files"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/cart.php:347
+msgid "Order status updated"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/cart.php:353
+msgid "Payment status updated"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/cart.php:361
+msgid "function not defined!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:21
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:91
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:227
+msgid "Prices"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:53
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:121
+msgid "in all prices"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:61
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:129
+msgid "Add to Cart"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/class.html.php:104
+msgid "Regular Price"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:6
+msgid "Marketplace"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:7
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:65
+msgid "Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:8
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/wpmp_frontend.php:27
+msgid "Add Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:9
+msgid "Add New Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:10
+msgid "Edit Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:11
+msgid "New Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:12
+msgid "View Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:13
+msgid "Search Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:14
+msgid "No product found"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:15
+msgid "No product found in Trash"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:39
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:49
+msgid "Categories"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:40
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user_post_list.php:12
+msgid "Category"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:41
+msgid "Search Categories"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:42
+msgid "All Categories"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:43
+msgid "Parent Category"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:44
+msgid "Parent Category:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:45
+msgid "Edit Category"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:46
+msgid "Update Category"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:47
+msgid "Add New Category"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/install.php:48
+msgid "New Category Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:23
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:41
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:20
+msgid "Order ID:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:24
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:19
+msgid "Order Summary"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:25
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:21
+msgid "Order Discount:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:26
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:31
+msgid "Shipping:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:27
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:32
+msgid "Order Total:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:28
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:33
+msgid "Order Date:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:29
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:39
+msgid "Customer ID:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:30
+msgid "Customer Details"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:31
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:40
+msgid "Customer Name:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:32
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:41
+msgid "Customer Email:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:33
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:48
+msgid "Item Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:34
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:67
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:67
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:48
+msgid "Unit Price"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:35
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:200
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:40
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:66
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:67
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:48
+msgid "Quantity"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:36
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:127
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:48
+msgid "Discount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:37
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:48
+msgid "Subtotal"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/print_invoice.php:38
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:69
+msgid "Download"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/reg-form.php:4
+msgid "Registration Failed!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/reg-form.php:14
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/all_payouts.php:11
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:21
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:58
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/login_form.php:15
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:13
+msgid "Username"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/reg-form.php:18
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:25
+msgid "E-mail"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/reg-form.php:21
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/reg-form.php:27
+msgid "Already have account? Login"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:77
+msgid "Add/Edit Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:85
+msgid "Description:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:91
+msgid "Excerpt:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:94
+msgid "Digital Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:210
+msgid "Frontend Demo URL:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:211
+msgid "Admin Demo URL:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:212
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/product-upload.php:99
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:15
+msgid "Username:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:213
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/product-upload.php:100
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:16
+msgid "Password:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:214
+msgid "Other Demo Info:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:229
+msgid "Variation Options"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:229
+msgid "Pricing"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:231
+msgid "Price:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:232
+msgid "Sales Price:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:233
+msgid "Variation"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:365
+msgid "Featured Image"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:403
+msgid "Remove Featured Image"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:410
+msgid "Additional Images"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:493
+msgid "Dimension"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:503
+msgid "Coupon Discount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:507
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:67
+msgid "Coupon Code"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:507
+msgid "Discount(%)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:541
+msgid "Role Based Discount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:545
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:6
+msgid "Role"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:545
+msgid "Discount (%)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_add-product.php:546
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:7
+msgid "Guest (guest)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:194
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:37
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:9
+msgid "Total Sales:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:194
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:37
+msgid "Total Withdraws:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:194
+msgid "Pending:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:194
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:37
+msgid "Balance:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:194
+msgid "Withdraw"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:200
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:40
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:37
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:19
+msgid "Date"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:200
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:40
+msgid "Item"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_earnings.php:200
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:40
+msgid "Price"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_my-products.php:138
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:75
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:77
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:117
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:146
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:148
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:67
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user_post_list.php:8
+msgid "Title"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_my-products.php:139
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:77
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:36
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:78
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:90
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:16
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user_post_list.php:15
+msgid "Action"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/scode_my-products.php:168
+msgid "You didn't add any product yet!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/stock.php:62
+msgid "Stock not enabled"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:31
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:31
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:49
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:49
+msgid "Enable/Disable:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:31
+msgid "Enable Cashondelivery"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:32
+msgid "Message/Instruction:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:42
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:42
+msgid "Order Completed."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cashondelivery/class.Cashondelivery.php:42
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:42
+msgid "Please wait while redirected."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:31
+msgid "Enable Cheque"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Cheque/class.Cheque.php:32
+msgid "Message:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:49
+msgid "Enable Googlecheckout"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:50
+msgid "Googlecheckout Mode:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:51
+msgid "Googlecheckout Merchant ID:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Googlecheckout/class.Googlecheckout.php:108
+msgid "Processing...."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:49
+msgid "Enable Paypal"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:50
+msgid "Paypal Mode:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:51
+msgid "Paypal Email:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:52
+msgid "Cancel Url:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/libs/payment_methods/Paypal/class.Paypal.php:53
+msgid "Return Url:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/additional-preview-images.php:42
+msgid "Browse"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/additional-preview-images.php:144
+msgid "Images"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/product-upload.php:97
+msgid "Demo Site URL:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/modules/product-upload.php:98
+msgid "Demo Admin URL: "
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:20
+msgid "Allowed Countries"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:33
+msgid "Product Page"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:34
+msgid "Auto generate product page contents"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:38
+msgid "When site members add or update a product:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:39
+msgid "Keep Pending for Review"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:39
+msgid "Auto Publish"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:43
+msgid "Cart Page :"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:59
+msgid "Checkout Page :"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:74
+msgid "Continue Shopping URL:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:77
+msgid "Disable plugin CSS from front-end"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/basic_settings.php:80
+msgid "Redirect to shopping cart after a product is added to the cart"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:6
+msgid "Payment Gateways"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:7
+msgid "Your activated payment gateways are listed below."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:12
+msgid "Gateway"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:13
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:28
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/all_payouts.php:13
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:15
+msgid "Status"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:44
+msgid "Payment Methods Configuration"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:67
+msgid "Currency Configuration"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:69
+msgid "Currency"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:77
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:26
+msgid "Default"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:77
+msgid "Currency Code"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:77
+msgid "Currency Symbol"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:87
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user_post_list.php:30
+msgid "Delete"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:98
+msgid "Currency Code:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/payment_options.php:100
+msgid "Currency Symbol:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:74
+msgid "Marketplace Settings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:79
+msgid "Basic Settings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:80
+msgid "Payment Options"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/settings.php:81
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:2
+msgid "Shipping Options"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:6
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:9
+msgid "Shipping calculations"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:12
+msgid "Enable shipping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:17
+msgid "Shipping Methods"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:27
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout.php:28
+msgid "Shipping Method"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:37
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:64
+msgid "Flat Rate"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:46
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:104
+msgid "Free Shipping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:55
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:133
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:135
+msgid "Local Delivery"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:62
+msgid "Shipping Methods Configuration"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:68
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:70
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:110
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:112
+msgid "Enable/Disable"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:71
+msgid "Enable this shipping method"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:78
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:120
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:149
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:88
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:90
+msgid "Default Cost"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:91
+msgid "Cost excluding tax. Enter an amount, e.g. 2.50."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:95
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:97
+msgid "Default Handling Fee"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:98
+msgid "Fee excluding tax. Enter an amount, e.g. 2.50."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:113
+msgid "Enable Free Shipping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:119
+msgid "Method Title"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:124
+msgid "Minimum Order Amount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:127
+msgid "Users will need to spend this amount to get free shipping."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:136
+msgid ""
+"Local delivery is a simple shipping method for delivering orders locally."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:139
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:141
+msgid "Enable"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:142
+msgid " Enable local delivery"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:153
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:155
+msgid "Fee Type"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:156
+msgid "How to calculate delivery charges"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:160
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:162
+msgid "Fee"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/shipping_options.php:163
+msgid ""
+"What fee do you want to charge for local delivery, disregarded if you choose "
+"free."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:2
+msgid "Stock Options"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:7
+msgid "Manage stock"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:11
+msgid "Enable stock management"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:17
+msgid "Enable Global Low stock (For All Product)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:22
+msgid "Low stock threshold for all product "
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:29
+msgid "Admin notification on low stock threshold"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:35
+msgid "Stock Reduce"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/stock_options.php:38
+msgid "Enable Stock Reduce Automatically"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:2
+msgid "Tax Options"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:7
+msgid "Tax Calculation"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:11
+msgid "Enable tax calculation"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:20
+msgid "Display taxes on cart page"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:24
+msgid "Additional Tax Classes"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:26
+msgid "List 1 per line. This is in addition to the default Standard Rate."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:31
+msgid "Tax Rates"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:37
+msgid "Countries"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:39
+msgid "Label"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:40
+msgid "Rate(%)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/settings/tax_options.php:41
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:128
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:22
+msgid "Shipping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/all_payouts.php:10
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:12
+msgid "Userid"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/all_payouts.php:12
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:14
+msgid "Amount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:3
+msgid "Billing and Shipping Info"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:17
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:131
+msgid "Billing Address"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:23
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:124
+msgid "First Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:29
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:129
+msgid "Last Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:35
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:134
+msgid "Company Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:41
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:139
+msgid "Address"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:47
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:144
+msgid "Address 2"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:53
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:149
+msgid "Town/City"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:59
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:154
+msgid "Postcode/Zip"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:65
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:159
+msgid "Country"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:91
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:182
+msgid "State/County"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:95
+msgid "Email Address"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:101
+msgid "Phone"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:106
+msgid "Ship to same address?"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:117
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:132
+msgid "Shipping Address"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/billing.php:190
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:45
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payment_method.php:32
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/shipping_method.php:47
+msgid "Continue"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:68
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:67
+msgid "Total"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:43
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:109
+msgid "Discount:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:44
+msgid "Total:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:46
+msgid "Continue Shopping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/cart.php:46
+msgid "Update Cart"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout.php:35
+msgid "Payment Method"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout.php:42
+msgid "Order Review"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:8
+msgid "Register / Login"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:14
+msgid "Register"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:15
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:40
+msgid "Register with us for future convenience:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:30
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:63
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/login_form.php:19
+msgid "Password"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:39
+msgid "Register and save time!"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:42
+msgid "Fast and easy check out"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:43
+msgid "Easy access to your order history and status"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:49
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:55
+msgid "Login"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:50
+msgid "if you arelady have an account login here:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:68
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/login_form.php:23
+msgid "Remember Me"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:71
+msgid "Log In"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/checkout_method.php:75
+msgid "Forgot password?"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:30
+msgid "Withdraw request"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:30
+msgid "Withdraw request submitted successfully."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:37
+msgid "usd"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:37
+msgid "saving..."
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/earnings.php:40
+msgid "License"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:18
+msgid "Product:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:19
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:76
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:88
+msgid "Start Date"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:21
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:77
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:89
+msgid "End Date"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:74
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:86
+msgid "ID"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:75
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:87
+msgid "Product Title"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:131
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:127
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:152
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:149
+msgid "Search"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:157
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:154
+msgid "Posts"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/featured_products.php:159
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:156
+msgid "Pages"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:38
+msgid "from"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:39
+msgid "to"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:45
+msgid "order(s) found"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:58
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:71
+msgid "Order ID"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:59
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:72
+msgid "Total Amount"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:60
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:73
+msgid "Customer Name"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:61
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:74
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:64
+msgid "Order Status"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:62
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:75
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:20
+msgid "Payment Status"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:63
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:76
+msgid "Order Date"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:113
+msgid "&laquo;"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:114
+msgid "&raquo;"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders.php:144
+msgid "Find Posts or Pages"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:18
+msgid "Order Id"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:63
+msgid "Order Details"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:129
+msgid "Customer details"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:130
+msgid "Email"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:133
+msgid "If you still want to complete this order:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/orders_purchases.php:134
+msgid "Pay Now"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:42
+msgid "Grand Total:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:106
+msgid "Cart Subtotal:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:123
+msgid "Order Notes"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:126
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payment_method.php:31
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/shipping_method.php:46
+msgid "Back"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/order_review.php:126
+msgid "Place Order"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payouts.php:63
+msgid "All Payouts"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payouts.php:64
+msgid "Dues"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payouts.php:65
+msgid "Payout Settings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_dues.php:8
+msgid "Balance"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:2
+msgid "Comissions"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:6
+msgid "comission (%)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:21
+msgid "Payout Duration"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:24
+msgid "Duration of payout to mature :"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/payout_settings.php:24
+msgid "Days"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/post_form.php:326
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/post_form.php:418
+msgid "Select files to upload:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/remind_password.php:4
+msgid "Forgot Password?"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/remind_password.php:6
+msgid "Username or E-mail:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/shipping_method.php:6
+msgid "Select Shipping"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user-menu.php:5
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/wpmp_frontend.php:26
+msgid "My Products"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user-menu.php:6
+msgid "Add new Product"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/user-menu.php:7
+msgid "My Earnings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:16
+msgid "Message"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:38
+msgid "Customer Info"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:45
+msgid "Order Items"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:104
+msgid "Order Status:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/view-order.php:113
+msgid "Payment Status:"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/wpmp_frontend.php:28
+msgid "Earnings"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/metaboxes/pricing.php:10
+msgid "Base Price"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/metaboxes/pricing.php:12
+msgid ""
+"If product has a discounted price which is lower then regular price (base "
+"price)"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/metaboxes/pricing.php:12
+msgid "Sales Price"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/content.php:8
+msgid "Description"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:11
+msgid "Front-end"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:11
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:14
+msgid "Enter"
+msgstr ""
+
+#: c:/xampp/htdocs/wpmarketplace/wp-content/plugins/wpmarketplace/tpls/product/views/demo.php:14
+msgid "Admin"
+msgstr ""

@@ -1,0 +1,35 @@
+div.my-title div.post-meta i.meta-icon{
+    background-image: url(../img/single.icons.png);
+    display: inline-block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 0px 10px 0px 0px;
+}
+div.my-title div.post-meta time i{
+    background-position: 0 0;
+}
+div.my-title div.post-meta a.post-meta-comments i{
+    background-position: 0 -15px;
+}
+div.my-title div.post-meta a.post-meta-likes i{
+    background-position: 0 -30px;
+}
+
+div#comments span.comment-replay a,
+div#comments i[class*="icon-"]{
+    background-image: url("../img/comment.icons.png");
+    height: 16px;
+    width: 16px;
+    margin: 1px 6px 0px 0px;
+}
+
+div#comments i.icon-date{
+    background-position: 0px 0px;
+}
+div#comments span.comment-replay a{
+    background-position: 0px -16px;
+}
+div#comments span.comment-replay a:hover{
+    background-position: 0px -32px;   
+}
