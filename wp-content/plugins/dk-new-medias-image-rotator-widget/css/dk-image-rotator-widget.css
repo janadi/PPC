@@ -1,0 +1,28 @@
+.irw-widget {
+	height: 20px;
+	overflow: hidden;
+	max-width: 100% !important;
+}
+
+.irw-widget.loading {
+	background: url('../images/loading.gif') center center no-repeat;
+}
+
+.irw-slider li {
+	display: inline-block;
+}
+
+.irw-widget li img {
+	max-width: 100% !important;
+}
+
+.irw-slider li img.pointer_cursor {
+	cursor: pointer;
+}
+
+/* IE Styles */
+
+.ie7 .irw-slider li {
+	display: block;
+	float: left;
+}

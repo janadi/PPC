@@ -1,0 +1,293 @@
+<?php
+
+	define('SWIPP_SHORTNAME', 'swipp'); // used to prefix the individual setting field id see wptuts_options_page_fields()  
+	define('SWIPP_PAGE_BASENAME', 'swipp-settings'); // the settings page slug
+  
+
+	/**
+	 * Add top level menu item
+	 */
+	function swipp_add_menu(){  
+		 // Display Settings Page link under the "Appearance" Admin Menu  
+		 $swipp_settings_page = add_menu_page(__('Swipp'), __('Swipp','swipp_textdomain'), 'manage_options', SWIPP_PAGE_BASENAME, 'swipp_settings_page_fn', $GLOBALS['SWIPP_PLUGIN_PATH'].'/images/swipp_16x16.png');          
+	}
+
+
+	/** 
+	 * Helper function for defining variables for the current page 
+	 * 
+	 * @return array 
+	 */
+	function swipp_get_settings() {  
+			
+		$output = array();  
+			
+		$output['swipp_page_title']		= __( 'Swipp Settings','swipp_textdomain'); // the settings page title  
+		$output['swipp_page_sections']	= ''; // the setting section  
+		$output['swipp_page_fields']		= ''; // the setting fields  
+		$output['swipp_contextual_help']	= ''; // the contextual help  
+			
+		return $output;  
+	}
+
+	function swipp_get_or_add_option($option, $output) {
+		if(false == get_option($option)) {    
+			add_option($option);
+			$output[$option] = '';
+		} else {
+			$output[$option] = get_option($option);
+		}
+		return $output;
+	}
+
+	function swipp_define_settings() {
+
+		if(false == get_option('swipp-settings')) {    
+			add_option('swipp-settings');
+		}
+		
+		add_settings_section(  
+			 'swipp_settings_section',         // ID used to identify this section and with which to register options  
+			 'Authentication',                  // Title to be displayed on the administration page  
+			 'swipp_settings_desc_callback', // Callback used to render the description of the section  
+			 'swipp-settings'     // Page on which to add this section of options  
+		);
+
+		add_settings_field(   
+			'swipp_user_email',                      // ID used to identify the field throughout the theme 
+			'Email',                           // The label to the left of the option interface element 
+			'swipp_user_email_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		); 
+
+		add_settings_field(   
+			'swipp_user_token',                      // ID used to identify the field throughout the theme 
+			'Password',                           // The label to the left of the option interface element 
+			'swipp_user_token_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		add_settings_field(   
+			'swipp_first_name',                      // ID used to identify the field throughout the theme 
+			'First Name',                           // The label to the left of the option interface element 
+			'swipp_first_name_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		add_settings_field(   
+			'swipp_last_name',                      // ID used to identify the field throughout the theme 
+			'Last Name',                           // The label to the left of the option interface element 
+			'swipp_last_name_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		add_settings_field(   
+			'swipp_account_token_hidden',                      // ID used to identify the field throughout the theme 
+			'',                           // The label to the left of the option interface element 
+			'swipp_account_token_hidden_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		add_settings_field(   
+			'swipp_user_guid_hidden',                      // ID used to identify the field throughout the theme 
+			'',                           // The label to the left of the option interface element 
+			'swipp_user_guid_hidden_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		add_settings_field(   
+			'swipp_org_id_hidden',                      // ID used to identify the field throughout the theme 
+			'',                           // The label to the left of the option interface element 
+			'swipp_org_id_hidden_callback',   // The name of the function responsible for rendering the option interface 
+			'swipp-settings',    // The page on which this option will be displayed 
+			'swipp_settings_section',         // The name of the section to which this field belongs 
+			array('') 
+		);
+
+		register_setting('swipp-settings', 'swipp-settings');
+	}
+
+	add_action('admin_init', 'swipp_define_settings');
+
+	function swipp_user_email_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$html = '<input type="text" id="swipp_user_email" name="swipp-settings[swipp_user_email]" value="'.$options['swipp_user_email'].'" />';  
+		$html .= '<label for="swipp_user_email"> '  . $args[0] . '</label>';  
+		echo $html; 
+	}
+
+	function swipp_user_token_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$html = '<input type="password" id="swipp_user_token" value="" />';
+		$html .= '<label for="swipp_user_token"> '  . $args[0] . '</label>';  
+		echo $html; 
+	}
+
+	function swipp_first_name_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$html = '<input type="text" id="swipp_first_name" value="" />';
+		$html .= '<label for="swipp_first_name"> '  . $args[0] . '</label>';  
+		echo $html; 
+	}
+
+	function swipp_last_name_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$html = '<input type="text" id="swipp_last_name" value="" />';
+		$html .= '<label for="swipp_last_name"> '  . $args[0] . '</label>';  
+		echo $html; 
+	}
+
+	function swipp_account_token_hidden_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		if($options['swipp_account_token_hidden'] == '' || !isset($options['swipp_account_token_hidden'])) {
+			$html = '<input type="hidden" id="swipp_account_token_hidden" name="swipp-settings[swipp_account_token_hidden]" value="'.$options['swipp_account_token_hidden'].'" />';  
+			$html .= '<input type="button" id="swipp_sign_up" class="button" value="Sign Up / Sign In" />';
+		} else {
+			$html = '<label for="swipp_account_token"> '  . $args[0] . '</label>';
+			$html .= '<input type="hidden" id="swipp_account_token_hidden" name="swipp-settings[swipp_account_token_hidden]" value="'.$options['swipp_account_token_hidden'].'" />';  
+			$html .= '<input type="button" id="swipp_sign_up" class="button" value="Reauthenticate" />';
+		} 
+		echo $html; 
+	}
+
+	function swipp_user_guid_hidden_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$guid = (isset($options['swipp_user_guid_hidden']) && $options['swipp_user_guid_hidden'] != '') ? $options['swipp_user_guid_hidden'] : '';
+		$html = '<input type="hidden" id="swipp_user_guid_hidden" name="swipp-settings[swipp_user_guid_hidden]" value="'.$guid.'" />';  
+		$html .= '<label for="swipp_user_guid_hidden"> '  . $args[0] . '</label>';
+		echo $html; 
+	}
+
+	function swipp_org_id_hidden_callback($args) { 
+		$options = get_option('swipp-settings'); 
+		$orgid = (isset($options['swipp_org_id_hidden']) && $options['swipp_org_id_hidden'] != '') ? $options['swipp_org_id_hidden'] : '';
+		$html = '<input type="hidden" id="swipp_org_id_hidden" name="swipp-settings[swipp_org_id_hidden]" value="'.$orgid.'" />';  
+		$html .= '<label for="swipp_org_id_hidden"> '  . $args[0] . '</label>';
+		echo $html; 
+	}
+
+	function swipp_settings_desc_callback() {
+		return;
+	}
+
+	/* Define the custom box */
+
+	add_action('add_meta_boxes', 'swipp_add_custom_box');
+	add_action('save_post', 'swipp_save_postdata');
+
+	/* Adds a box to the main column on the Post and Page edit screens */
+	function swipp_add_custom_box() {
+		 add_meta_box('swipp_sectionid', 'Swipp Details', 'swipp_inner_custom_box', 'post', 'side', 'low');
+	}
+
+	/* Prints the box content */
+	function swipp_inner_custom_box( $post ) {
+
+	  // Use nonce for verification
+	  wp_nonce_field( plugin_basename( __FILE__ ), 'swipp_noncename' );
+
+	  // The actual fields for data entry
+	  // Use get_post_meta to retrieve an existing value from the database and use the value for the form
+		if($value = get_post_meta( $post->ID, 'swipp_widget', true )) {
+			$widget_details = json_decode($value, true);
+			echo "<pre>";
+			print_r($widget_details['response']['widgetTermDetail']);
+			echo "</pre>";
+		}
+	  /*echo '<label for="swipp_new_term">';
+			 _e("Swipp Topic", 'swipp_textdomain' );
+	  echo '</label> ';
+	  echo '<input type="text" id="swipp_new_term" name="swipp_new_term" value="'.esc_attr($value).'" size="25" />';*/
+	  
+	}
+
+	/* When the post is saved, saves our custom data */
+	function swipp_save_postdata( $post_id ) {
+
+	  // First we need to check if the current user is authorised to do this action. 
+	  if ( 'page' == $_POST['post_type'] ) {
+		 if ( ! current_user_can( 'edit_page', $post_id ) )
+			  return;
+	  } else {
+		 if ( ! current_user_can( 'edit_post', $post_id ) )
+			  return;
+	  }
+
+	  // Secondly we need to check if the user intended to change this value.
+	  if ( ! isset( $_POST['swipp_noncename'] ) || ! wp_verify_nonce( $_POST['swipp_noncename'], plugin_basename( __FILE__ ) ) )
+			return;
+
+	  // Thirdly we can save the value to the database
+
+	  //if saving in a custom table, get post_ID
+	  $post_ID = $_POST['post_ID'];
+	  //sanitize user input
+	  $mydata = sanitize_text_field( $_POST['swipp_new_term'] );
+
+	  // Do something with $mydata 
+	  // either using 
+	  /*add_post_meta($post_ID, 'swipp_term', $mydata, true) or
+		  update_post_meta($post_ID, 'swipp_term', $mydata);*/
+	  // or a custom table (see Further Reading section below)
+	}
+
+
+	function password_placeholder($pass) {
+		$output = '';
+		for($i=0;$i <= strlen($pass);$i++) {
+			$output .= '*';
+		}
+		return $output;
+	}
+
+
+	/**
+	 * Admin Settings Page HTML 
+	 *  
+	 * @return echoes output 
+	 */  
+	function swipp_settings_page_fn() {  
+	// get the settings sections array  
+		 $settings_output = swipp_get_settings();  
+		 $swipp_settings = get_option('swipp-settings');
+	?>  
+		<div class="wrap">
+			<div class="icon32" id="icon-options-general"></div>  
+			<h2><?php echo $settings_output['swipp_page_title']; ?></h2>
+
+			<?php settings_errors(); ?>
+
+			<?php if(isset($swipp_settings['swipp_user_guid_hidden']) && $swipp_settings['swipp_user_guid_hidden'] != '') : ?>
+				<div id="setting-updated-settings_updated" class="updated settings-updated below-h2"> 
+					<p><strong>You are Authenticated.</strong></p>
+				</div>
+			<?php endif; ?>
+			 
+			<form action="options.php" method="post">
+				<?php settings_fields('swipp-settings'); ?> 
+            <?php do_settings_sections('swipp-settings'); ?>          
+				<span id="swipp_auth_notice" style="display: none;">Signed in. Don't forget to Save Changes below.</span>
+            <?php submit_button(); ?>
+				<?php
+					$swipp_settings = get_option('swipp-settings');
+					/*echo "<pre>";
+					print_r($swipp_settings);
+					echo "</pre>";*/
+				?>
+			</form>  
+		</div><!-- wrap -->  
+	<?php }
+
+?>
