@@ -1,0 +1,325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BlackMesa 1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-22 11:16+0100\n"
+"PO-Revision-Date: 2012-08-22 11:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n;ngettext\n"
+"X-Poedit-Basepath: ./\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:15 ../loop.php:26
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: ../404.php:19
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Entschuldigung, aber die angeforderte Seite wurde nicht gefunden. Vielleicht "
+"hilft eine Suche."
+
+#: ../archive.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Tägliches Archiv: %s"
+
+#: ../archive.php:33
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Monatliches Archiv: %s"
+
+#: ../archive.php:35
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Jährliches Archiv: %s"
+
+#: ../archive.php:37
+msgid "Blog Archives"
+msgstr "Blog-Archiv"
+
+#: ../attachment.php:51
+#, php-format
+msgid "Full size is %s pixels"
+msgstr "Volle Größe beträgt %s Pixel"
+
+#: ../attachment.php:54
+msgid "Link to full-size image"
+msgstr "Link zum großen Bild"
+
+#: ../attachment.php:63
+msgid "&larr; Previous image"
+msgstr "&larr; Vorheriges Bild"
+
+#: ../attachment.php:64
+msgid "Next image &rarr;"
+msgstr "Nächstes Bild &rarr;"
+
+#: ../attachment.php:75 ../loop.php:71 ../single.php:25 ../single.php:56
+msgid "Posted on"
+msgstr "Erstellt am"
+
+#: ../attachment.php:76 ../loop.php:72 ../single.php:26 ../single.php:57
+msgid "Written by"
+msgstr "Geschrieben von"
+
+#: ../attachment.php:78 ../loop.php:74 ../single.php:28 ../single.php:59
+msgid "Categories:"
+msgstr "Kategorien:"
+
+#: ../attachment.php:84 ../loop.php:80 ../single.php:34 ../single.php:65
+msgid "Tags:"
+msgstr "Schlagworte:"
+
+#: ../attachment.php:87 ../loop.php:83 ../page.php:35 ../single.php:38
+#: ../single.php:69
+msgid "Leave a comment"
+msgstr "Schreibe einen Kommentar"
+
+#: ../attachment.php:87 ../loop.php:83 ../page.php:35 ../single.php:38
+#: ../single.php:69
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: ../attachment.php:87 ../loop.php:83 ../page.php:35 ../single.php:38
+#: ../single.php:69
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: ../attachment.php:100 ../loop.php:65
+msgid "Continue reading &rarr;"
+msgstr "Weiterlesen &rarr;"
+
+#: ../attachment.php:101 ../loop.php:66 ../single.php:52
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: ../author.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Authoren-Archiv: %s"
+
+#: ../author.php:35
+#, php-format
+msgid "About %s"
+msgstr "Über %s"
+
+#: ../category.php:15
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Kategorie-Archiv: %s"
+
+#: ../comments.php:19
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Eintrag ist passwortgeschützt. Gib das Passwort ein, um die "
+"Kommentare sehen zu können."
+
+#: ../comments.php:37
+msgid "No responses to"
+msgstr "Keine Antworten auf"
+
+#: ../comments.php:37
+msgid "One response to"
+msgstr "Eine Antwort auf"
+
+#: ../comments.php:37
+msgid "% responses to"
+msgstr "%1$s Antworten auf"
+
+#: ../comments.php:59
+msgid "<span class=\"buttonGlass1 alignleft\">&larr; Older Comments</span>"
+msgstr "<span class=\"buttonGlass1 alignleft\">&larr; Ältere Kommentare</span>"
+
+#: ../comments.php:60
+msgid "<span class=\"buttonGlass2 alignright\">Newer Comments &rarr;</span>"
+msgstr ""
+"<span class=\"buttonGlass2 alignright\">Neuere Kommentare &rarr;</span>"
+
+#: ../comments.php:69
+msgid "There are no comments yet."
+msgstr "Es gibt noch keine Kommentare."
+
+#: ../comments.php:73
+msgid "Comments are closed."
+msgstr "Die Kommentare sind geschlossen."
+
+#: ../footer.php:26
+msgid ""
+" is using the <a href=\"http://www.arcance.net/freebies/blackmesa\" title="
+"\"Get the free BlackMesa theme\" rel=\"author\">free BlackMesa</a> theme and "
+"is powered by <a href=\"http://wordpress.org/\" title=\"Semantic Personal "
+"Publishing Platform\" rel=\"generator\">WordPress</a>"
+msgstr ""
+" verwendet das <a href=\"http://www.arcance.net/freebies/blackmesa\" title="
+"\"BlackMesa kostenlos herunterladen\" rel=\"author\">kostenlose BlackMesa</"
+"a> Theme und wird angetrieben durch <a href=\"http://wordpress.org/\" title="
+"\"Semantic Personal Publishing Platform\" rel=\"generator\">WordPress</a> "
+
+#: ../functions.php:96
+msgid "Header Menu"
+msgstr "Header Menü"
+
+#: ../functions.php:97
+msgid "Sidebar Menu"
+msgstr "Sidebar Menü"
+
+#: ../functions.php:222
+#, php-format
+msgid "Search results for %s"
+msgstr "Suchergebnisse für %s"
+
+#: ../functions.php:225 ../functions.php:242
+#, php-format
+msgid "Page %s"
+msgstr "Seite %s"
+
+#: ../functions.php:284
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Weiterlesen <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../functions.php:338
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar wartet auf Freischaltung."
+
+#: ../functions.php:346
+msgid "on"
+msgstr "am"
+
+#: ../functions.php:346
+msgid "at"
+msgstr "um"
+
+#: ../functions.php:346
+msgid " "
+msgstr "Uhr"
+
+#: ../functions.php:347 ../functions.php:362
+msgid "(Edit)"
+msgstr "(Editieren)"
+
+#: ../functions.php:362
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../functions.php:382
+msgid "Primary Widget Area"
+msgstr "Primärer Widget Bereich"
+
+#: ../functions.php:384
+msgid "The primary widget area"
+msgstr "Der primäre Widget Bereich"
+
+#: ../functions.php:393
+msgid "Left Footer Widget Area"
+msgstr "Widget Bereich, Footer links"
+
+#: ../functions.php:395
+msgid "The first footer widget area"
+msgstr "Der linke  Widget Bereich im Footer"
+
+#: ../functions.php:404
+msgid "Middle Footer Widget Area"
+msgstr "Widget Bereich, Footer mitte"
+
+#: ../functions.php:406
+msgid "The second footer widget area"
+msgstr "Der mittlere Widget Bereich im Footer"
+
+#: ../functions.php:415
+msgid "Right Footer Widget Area"
+msgstr "Widget Bereich, Footer rechts"
+
+#: ../functions.php:417
+msgid "The third footer widget area"
+msgstr "Der rechte Widget Bereich im Footer"
+
+#: ../loop.php:30
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Entschuldigung, aber die angeforderte Seite wurde nicht gefunden. Vielleicht "
+"hilft eine Suche."
+
+#: ../loop.php:97
+msgid "<span class=\"buttonGlass1 alignleft\">&larr; Older posts</span>"
+msgstr "<span class=\"buttonGlass1 alignleft\">&larr; Ältere Einträge</span>"
+
+#: ../loop.php:98
+msgid "<span class=\"buttonGlass2 alignright\">Newer posts &rarr; </span>"
+msgstr "<span class=\"buttonGlass2 alignright\">Neuere Einträge &rarr; </span>"
+
+#: ../search.php:14
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Suchergebnisse für: %s"
+
+#: ../search.php:25
+msgid "Nothing Found"
+msgstr "Nichts gefunden"
+
+#: ../search.php:29
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Entschuldigung, aber keine Inhalte entsprechen den Suchkriterien. Bitte "
+"versuche es erneut mit anderen Stichwörtern."
+
+#: ../sidebar.php:22
+msgid "Search"
+msgstr "Suche"
+
+#: ../sidebar.php:29
+msgid "Navigation"
+msgstr "Navigation"
+
+#: ../sidebar.php:38
+msgid "Archives"
+msgstr "Archive"
+
+#: ../sidebar.php:47
+msgid "Meta"
+msgstr "Meta"
+
+#: ../tag.php:14
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Schlagwort-Archiv: %s"
+
+#~ msgid "Black"
+#~ msgstr "Schwarz"
+
+#~ msgid "Red"
+#~ msgstr "Rot"
+
+#~ msgid "Return to %s"
+#~ msgstr "Zurück zu %s"
+
+#~ msgid "<span>&larr;</span> %s"
+#~ msgstr "<span>&larr;</span> %s"
+
+#~ msgid "By %2$s"
+#~ msgstr "Von %2$s"
+
+#~ msgid "Published %2$s"
+#~ msgstr "Veröffentlicht %2$s"
+
+#~ msgid "Edit"
+#~ msgstr "Editieren"
+
+#~ msgid "This gallery contains <a %1$s>%2$s photos</a>."
+#~ msgstr "Die Gallerie beinhaltet <a %1$s>%2$s Fotos</a>."
+
+#~ msgid "More Galleries"
+#~ msgstr "Mehr Gallerien"
