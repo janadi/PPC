@@ -1,0 +1,104 @@
+# This German Language File: Copyright (C) 2012-2013 by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Jetpack Plugin package.
+#
+# Weitere deutsche Sprachdateien fuer WordPress-Plugins und -Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Jetpack by WordPress.com v2.3 (DU-Version)\n"
+"Report-Msgid-Bugs-To: http://deckerweb.de/kontakt/\n"
+"POT-Creation-Date: 2012-10-29 10:29:03+0100\n"
+"PO-Revision-Date: 2013-04-28 00:32+0100\n"
+"Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
+"Language-Team: DECKERWEB -- http://deckerweb.de/kontakt/\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# current, v2.2.2:
+# @ default
+#: modules/likes.php:571
+msgid "Likes"
+msgstr "Gefällt mir"
+
+# @ default
+#: modules/likes.php:209
+msgid "Likes Notifications"
+msgstr "Gefällt mir Benachrichtigungen"
+
+# @ default
+#: modules/likes.php:210
+msgid "Email me whenever"
+msgstr "E-Mail senden, immer, wenn"
+
+# @ default
+#: modules/likes.php:249
+msgid "Someone likes one of my posts"
+msgstr "jemand einer meiner Beiträge 'gefällt'"
+
+# older stuff:
+# @ default
+#: modules/widgets/readmill.php:47
+#, php-format
+msgid ""
+"Just enter the URL to your book, make sure it's a PDF or EPUB file, and you "
+"are ready to go. For more help, head to <a href='%s'>the Readmill WordPress "
+"Widget support page</a>."
+msgstr ""
+"Gib einfach die URL zu Deinem Buch ein, stelle sicher, dass es eine PDF- "
+"oder EPUB-Datei ist. Dann bist Du, loszulegen! &ndash; Für weitere Hilfe, "
+"gehe bitte auf die Hilfe-Seite für das <a href='%s'>Readmill WordPress "
+"Widget</a>."
+
+# @ default
+#: modules/comments/comments.php:250
+msgid "Leave a Reply"
+msgstr "Kommentar verfassen"
+
+# @ default
+#: modules/contact-form/grunion-contact-form.php:192
+msgid "Message Sent"
+msgstr "Nachricht wurde gesendet"
+
+# @ default
+#: modules/carousel/jetpack-carousel.php:132
+msgid ""
+"You must be <a href=\"#\" class=\"jp-carousel-comment-login\">logged in</a> "
+"to post a comment."
+msgstr ""
+"Du musst <a href=\"#\" class=\"jp-carousel-comment-login\">angemeldet sein</"
+"a>, um kommentieren zu können."
+
+# @ default
+#: modules/comments/comments.php:250
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Antworten auf %s"
+
+# @ default
+#: modules/contact-form/grunion-contact-form.php:184
+msgid "An error occurred. Please try again later."
+msgstr "Ein Fehler trat auf. Bitte versuche es später noch einmal."
+
+# @ default
+#: modules/widgets/twitter-timeline.php:170
+#, php-format
+msgid ""
+"You need to <a href=\"%1$s\" target=\"_blank\">create a widget at Twitter."
+"com</a>, and then enter your widget id (the long number found in the URL of "
+"your widget's config page) in the field below. <a href=\"%2$s\" target="
+"\"_blank\">Read more</a>."
+msgstr ""
+"Du musst <a href=\"%1$s\" target=\"_blank\">bei Twitter.com ein Widget "
+"erstellen</a>, und dann Deine Widget-ID (die lange Nummer in der URL der "
+"Widget-Konfigurationsseite) in das Feld unten eintragen. <a href=\"%2$s\" "
+"target=\"_blank\">Weitere Informationen dazu (Engl.)</a>."

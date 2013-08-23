@@ -1,0 +1,100 @@
+Eclipse 2 Free Changelog
+
+****************************
+
+Version 2.0.23 (8-16-13)
+- Fixed heading typography.
+- Footer copyright - allow all html through.
+- Added custom css option to customizer.
+
+Version 2.0.22 (8-9-13)
+- Removed duplicated customizer menu for WPv3.6.
+- Fixed standard violation notices regarding Walker class for WPv3.6.
+- Added functionality to allow HTML Footer Copyright Text option.
+- Updated URLs to theme's help, guides, forum page etc.
+
+Version 2.0.21 (8-2-13)
+- Fixed site width issue.
+- Half slider order tweak.
+
+Version 2.0.20 (7-26-13)
+- Added upsell page listing all CyberChimps themes.
+- Added one click plugin instalation support for "Easy Digital Download".
+- Added polish language support.
+
+Version 2.0.19 (7-19-13)
+- Swapped position of buttons "Save Option" and "Restore Defaults" so that when you are in an input field, on press of "Enter" it saves the options.
+- Added default text for boxes element.
+- New HTML structure for password protected page/post.
+- Typography improvement: implemented dfferent font family for headings and text, both in theme option and customizer.
+
+Version 2.0.18 (7-11-13)
+- Added filters to widget titles.
+- Woocommerce - removed max-width.
+- Changed where the skin css gets added in the head.
+
+Version 2.0.17 (7-4-13)
+-Removed twitter element.
+-Updated default images and icons.
+-Updated translation.
+-Added option to add title to blog page.
+-Updated carousel plugin.
+-Fixed YouTube video responsive issue.
+
+Version 2.0.16 (6-27-13)
+-Updated twitter API to v1.1
+
+Version 2.0.15 (6-21-13)
+-Replaced headlines tags from h2 to h1 at required places.
+
+Version 2.0.14 (6-13-13)
+Removed the unused global variable from boxes.php.
+
+Version 2.0.13 (6-6-13)
+-Updated meta in pot file.
+-Added updated class to the time tag in cyberchimps_posted_on() function.
+-Fixed custom css sanitization at php and js levels.
+-Updated woocommerce styling.
+-Improved comments schema for microformats.
+
+Version 2.0.12 (5-30-13)
+-Removed modal welcome note on theme install.
+-Boxes - added filter for default number 
+
+Version 2.0.11 (5-23-13)
+-Added function cyberchimps_posted_by() to display author link.
+-Modified function cyberchimps_posted_on(), tags containing date fields are made to be printed only when date toggle is on.
+
+Version 2.0.10 (5-17-13)
+-Updated slimbox to latest version.
+-Prevented default click action on mobile level slimbox.
+-Added the functionality to prevent the image to load in lightbox for mobile devices.
+-Updated Dutch and German Languages.
+-Fixed the double sliders issue.
+-Added filter cyberchimps_sidebar_before_widget to add markup before widget.
+-Updated footer image logo.
+
+Version 2.0.9 (5-9-13)
+-Replaced get_template_directory_uri() with the variable already declared locally in the function in cyberchimps/functions.php.
+
+Version 2.0.8 (5-2-13)
+-Woocommerce layout fix
+
+Version 2.0.7 (4-26-13)
+-Replaced cyberchimps_option() with cyberchimps_get_option().
+-Added css fix to Header logo.
+
+Version 2.0.6 (4-18-13)
+-Removed elements using custom post type.
+
+Version 2.0.4 (4-12-13)
+-Framework updates.
+
+Version 2.0.3 (4-2-13)
+-Framework updates.
+
+Version 2.0.2 (3-22-13)
+-Bug fixes and framework update.
+
+Version 2.0.0 (3-14-13)
+-2.0 release on new CyberChimps framework now powered by Twitter Bootstrap.
